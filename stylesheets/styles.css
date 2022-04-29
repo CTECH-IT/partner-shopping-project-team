@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 
-.navbar {
+.navbar_container {
     padding: 0;
     margin: 0;
     width: 100%;
     height: 50px;
     background-color: bisque;
     display: block;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
+
 }
 
 @font-face {
@@ -24,9 +25,11 @@ ul {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: auto;
-
+    overflow: hidden;
+    box-sizing: border-box;
+    content: center;
 }
+
 
 
 .logo {
@@ -34,6 +37,8 @@ ul {
     font-size: 40px;
     text-align: left;
     font-weight: bold;
+    float: left !important;
+    border: transparent;
 }
 .navbar_logo {
     display: block;
@@ -41,17 +46,17 @@ ul {
 
 }
 
-.item {
+#item {
     margin: 0px;
     cursor: pointer;
     display: block;
-    padding: 8px 16px;
+    padding: 8px 30px;
     text-decoration: none;
     position: right;
     list-style-type: none;
     text-align: right;
     float: right;
-
+    height: 50px;
+    text-align: center;
     
 }
-
