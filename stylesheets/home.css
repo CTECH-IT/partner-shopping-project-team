@@ -1,0 +1,24 @@
+.home_page {
+    background-color: #FDEFB2;
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: WaterBrush;
+    src: url(/stylesheets/fonts/WaterBrush-Regular.ttf);
+}
+
+@font-face {
+    font-family: Kaushan;
+    src: url(/stylesheets/fonts/KaushanScript-Regular.ttf);
+}
+
+#homepage_taco {
+    max-width: 360px;
+    position: relative;
+    top: 125px;
+    left: 1000px;
+
+}
+
