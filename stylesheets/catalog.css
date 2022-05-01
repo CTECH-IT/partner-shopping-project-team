@@ -1,9 +1,10 @@
 .catalog_item {
     display: block;
     width: 240px;
-    height: 240px;
+    height: 300px;
     padding: 8px 16px;
     margin: none;
+    border: solid black 2px;
 }
 
 .main_content {
@@ -42,7 +43,35 @@ ul {
     float:  left !important;
 }
 
-.taco_image {
-    max-width: 240px !important;
-    max-height: 240px !important; 
+#taco_image {
+    max-width: 220px !important;
+    max-height: 220px !important;
+    float: left;
+    padding: 8px 16px;
+    margin: auto;
 }
+
+#taco_price {
+    padding: 8px 16px;
+    margin: 0;
+
+}
+
+#taco_name {
+    padding: 8px 16px;
+    margin: 0;
+
+}
+
+
+#admin_page {
+    position: relative;
+    display: block;
+    float: right;
+    top: 575px;
+    margin: 0;
+    padding: 8px 16px;
+
+}
+
+

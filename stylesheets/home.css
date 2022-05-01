@@ -1,7 +1,7 @@
 .home_page {
     background-color: #FDEFB2;
     width: 100%;
-    height: 100%;
+    height: 500px;
 }
 
 @font-face {
@@ -18,7 +18,51 @@
     max-width: 360px;
     position: relative;
     top: 125px;
-    left: 1000px;
+    left: 790px;
+    z-index: 1;
 
 }
 
+.homepage_txt {
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 400px;
+    bottom: 100px;
+}
+
+#btn {
+    width: 150px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #FEBF6E;
+    position: relative;
+    left: 400px;
+    bottom: 75px;
+  }
+
+  #hpg_header {
+    font-family: Kaushan;
+    color: #B9BBB6;
+}  
+
+#hpg_txt {
+    font-family: WaterBrush;
+    font-weight: lighter;
+
+}
+
+#circle {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 360px;
+    background: #FEBF6E;
+    width: 275px;
+    height: 275px;
+    position: relative;
+    left: 825px;
+    z-index: 0;
+    bottom: 320px;
+}
