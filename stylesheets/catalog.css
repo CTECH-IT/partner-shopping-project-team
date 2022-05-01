@@ -6,7 +6,7 @@
     border-radius: 25px;
     width: 40px;
     position: relative;
-    left: 740px;
+    left: 750px;
     bottom: 10px;
 }
 
@@ -14,55 +14,18 @@
     text-align: center;
     font-family: RadioCanada;
 }
-.store_row {
-    width: 1080px;
-    margin: auto;
+
+.shop_content {
     display: flex;
-    flex-wrap: wrap;
-    height: 800px;
-    box-sizing: border-box;
+    gap: 1.5rem !important;
+    flex: wrap;
+    max-width: 100%;
+    align-items: center !important;
 
 }
 
-#store_image {
-    margin-top: 70px 0;
-    max-width: 350px !important;
-    max-height: 350px;
-    display: inline-block;
-    flex-direction: column;
-    padding: 20px;
-    margin: auto;
-    z-index: 1
-}
-
-#taco_name {
-    margin: 0;
-    padding: 8px 16px;
-}
-
-.store_item {
-    flex-basis: 30%;
-    text-align: left;
+.product_img {
+    max-width: 200px;
 
 }
-
-.store_image {
-    box-sizing: border-box !important;
-    width: 350px;
-    height: 350px;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.image_button {
-z-index: 0;
-background: #EE7600;
-height: 20px;
-text-decoration-color: white;
-font-size: 20px;
-position: right;
-}
-
 
