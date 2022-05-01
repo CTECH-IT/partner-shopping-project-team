@@ -40,16 +40,15 @@
     background: #FEBF6E;
     position: relative;
     left: 400px;
-    bottom: 75px;
-  }
+    bottom: 85px;
+}
 
-  #hpg_header {
+#hpg_header {
     font-family: Kaushan;
-    color: #B9BBB6;
 }  
 
 #hpg_txt {
-    font-family: WaterBrush;
+    font-family: Playball;
     font-weight: lighter;
 
 }
@@ -58,11 +57,44 @@
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 360px;
-    background: #FEBF6E;
+    background: #FFD580;
     width: 275px;
     height: 275px;
     position: relative;
     left: 825px;
     z-index: 0;
     bottom: 320px;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/stylesheets/fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: Playball;
+    src: url(/stylesheets/fonts/Playball-Regular.ttf);
+}
+
+.homepage_featured {
+    max-width: 75%;
+    max-height: 500px;
+    margin-top: 20px;
+    display: flex;
+    box-sizing: border-box !important;
+    flex-wrap: wrap;
+    position: center;
+    align-items: center !important;
+    margin: auto;
+}
+
+.featured_image {
+    flex-basis: 30%;
+    margin-top: 70px 0;
+    max-width: 350px !important;
+    max-height: 350px;
+    display: inline-block;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
 }
