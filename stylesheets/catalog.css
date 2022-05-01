@@ -1,76 +1,68 @@
-.catalog_item {
-    display: block;
-    width: 240px;
-    height: 300px;
-    padding: 8px 16px;
-    margin: none;
-    border: solid black 2px;
+.store_divider {
+    background-color: #EE7600;
+    height: 10px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    width: 40px;
+    position: relative;
+    left: 740px;
+    bottom: 10px;
 }
 
-.main_content {
-    display: block;
-    box-sizing: border-box;
-    width: 75%;
-    height: 100%;
-    position: center;
-    justify-content: center;
-    margin: auto; 
-    flex-direction: column;
-    padding: 8px 16px;
-    flex-wrap: wrap;
-    margin-top: 30px !important;
-    
+.store_name_header {
+    text-align: center;
+    font-family: RadioCanada;
 }
-
-ul {
-    list-style-type: none;
-
-}
-
-.catalog_list {
-    display: flex;
-    flex-direction: column !important;
-    justify-content: column;
-    position: center;
-    justify-content: center;
-}
-
-#catalog_id {
-    display: flex;
-    padding: 8px 16px;
-    flex-direction: column !important;
-    margin-bottom: 5px;
-    float:  left !important;
-}
-
-#taco_image {
-    max-width: 220px !important;
-    max-height: 220px !important;
-    float: left;
-    padding: 8px 16px;
+.store_row {
+    width: 1080px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    box-sizing: border-box;
+
 }
 
-#taco_price {
-    padding: 8px 16px;
-    margin: 0;
-
+#store_image {
+    margin-top: 70px 0;
+    max-width: 350px !important;
+    max-height: 350px;
+    display: inline-block;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    z-index: 1
 }
 
 #taco_name {
-    padding: 8px 16px;
     margin: 0;
+    padding: 8px 16px;
+}
+
+.store_item {
+    flex-basis: 30%;
+    text-align: left;
 
 }
 
-#admin_page {
-    position: relative;
-    display: block;
-    float: right;
-    top: 575px;
+.store_image {
+    box-sizing: border-box !important;
+    width: 350px;
+    height: 350px;
     margin: 0;
-    padding: 8px 16px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.image_button {
+z-index: 0;
+background: #EE7600;
+height: 20px;
+text-decoration-color: white;
+font-size: 20px;
+position: right;
 }
 
 

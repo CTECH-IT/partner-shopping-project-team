@@ -37,7 +37,7 @@
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-    background: #FEBF6E;
+    background: linear-gradient(90deg, rgba(232,226,35,1) 0%, rgba(255,215,11,1) 35%, rgba(255,175,0,1) 100%);
     position: relative;
     left: 400px;
     bottom: 85px;
@@ -97,4 +97,25 @@
     flex-direction: column;
     padding: 20px;
     margin: auto;
+}
+
+.home_feature {
+    text-align: center;
+    font-family: RadioCanada;
+}
+
+.feature_divider {
+    background-color: #EE7600;
+    height: 10px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    width: 40px;
+    position: relative;
+    left: 740px;
+    bottom: 10px;
+}
+@font-face {
+    font-family: RadioCanada;
+    src: url(/stylesheets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
 }
