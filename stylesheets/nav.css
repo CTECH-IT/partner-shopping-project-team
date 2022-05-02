@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
 }
 
 .navbar_container {
@@ -70,6 +72,7 @@ ul {
     color: blueviolet;
     transition: all 0.3s ease;
 }
+
 
 
 
