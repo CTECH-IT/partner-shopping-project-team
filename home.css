@@ -1,0 +1,121 @@
+.home_page {
+    background-color: #FDEFB2;
+    width: 100%;
+    height: 500px;
+}
+
+@font-face {
+    font-family: WaterBrush;
+    src: url(/stylesheets/fonts/WaterBrush-Regular.ttf);
+}
+
+@font-face {
+    font-family: Kaushan;
+    src: url(/stylesheets/fonts/KaushanScript-Regular.ttf);
+}
+
+#homepage_taco {
+    max-width: 360px;
+    position: relative;
+    top: 125px;
+    left: 790px;
+    z-index: 1;
+
+}
+
+.homepage_txt {
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 400px;
+    bottom: 100px;
+}
+
+#btn {
+    width: 150px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(232,226,35,1) 0%, rgba(255,215,11,1) 35%, rgba(255,175,0,1) 100%);
+    position: relative;
+    left: 400px;
+    bottom: 85px;
+}
+
+#hpg_header {
+    font-family: Kaushan;
+}  
+
+#hpg_txt {
+    font-family: Playball;
+    font-weight: lighter;
+
+}
+
+#circle {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 360px;
+    background: #FFD580;
+    width: 275px;
+    height: 275px;
+    position: relative;
+    left: 825px;
+    z-index: 0;
+    bottom: 320px;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/stylesheets/fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: Playball;
+    src: url(/stylesheets/fonts/Playball-Regular.ttf);
+}
+
+.homepage_featured {
+    max-width: 75%;
+    max-height: 500px;
+    margin-top: 20px;
+    display: flex;
+    box-sizing: border-box !important;
+    flex-wrap: wrap;
+    position: center;
+    align-items: center !important;
+    margin: auto;
+}
+
+.featured_image {
+    flex-basis: 30%;
+    margin-top: 70px 0;
+    max-width: 350px !important;
+    max-height: 350px;
+    display: inline-block;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+}
+
+.home_feature {
+    text-align: center;
+    font-family: RadioCanada;
+}
+
+.feature_divider {
+    background-color: #EE7600;
+    height: 10px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    width: 40px;
+    position: relative;
+    left: 740px;
+    bottom: 10px;
+}
+@font-face {
+    font-family: RadioCanada;
+    src: url(/stylesheets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+}
