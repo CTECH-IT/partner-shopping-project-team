@@ -1,3 +1,12 @@
+:root {
+    --Color: #f09d51;
+    --White: #fff;
+    --Black: #222;
+    --Grey: #ececec;
+    --Spacing: 0.1rem;
+    --Transition: all 0.3s linear;
+  }
+
 * {
     padding: 0;
     margin: 0;

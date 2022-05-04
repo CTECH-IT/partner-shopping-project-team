@@ -9,6 +9,7 @@
     
     <!-- If you are using p5.js to create drawings or games, uncomment the next line: -->
       <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+      <script src="https://kit.fontawesome.com/38a5d06c7f.js" crossorigin="anonymous"></script>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="stylesheets/catalog.css">
@@ -35,47 +36,58 @@
   </header>
 
 
-<div class="store_header">
-  <h1 class="store_name_header">Tacos</h1>
-  <div class="store_divider"></div>
-</div>
-
-
-<section class="shop_container">
-
-  <div class="shop_content">
-    <!--Box 1-->
-    <div class="product_box">
-      <img src="/imgs/birriatacos.png" alt="" class="product_img">
-      <h2 class="product_title">Birria Tacos</h2>
-      <span class="price">$9.99</span>
-      <i class="shopping_addcart"></i>
-    </div>
-    <!-- Box 2-->
-    <div class="product_box">
-      <img src="/imgs/taco1.png" alt="" class="product_img">
-      <h2 class="product_title">Birria Tacos</h2>
-      <span class="price">$9.99</span>
-      <i class="shopping_addcart"></i>
-    </div>
-    <!-- Box 3-->
-    <div class="product_box">
-      <img src="imgs/birriatacos.png" alt="" class="product_img">
-      <h2 class="product_title">Birria Tacos</h2>
-      <span class="price">$9.99</span>
-      <i class="shopping_addcart"></i>
-  
-    </div>
-
+<section class="products">
+  <div class="section_title">
+    <h2>Products</h2>
+  </div>
+  <div class="product_center">
+<article class="product">
+  <div class="img_container">
+    <img src="/imgs/birriatacos.png" alt="product" class="product_img">
+    <button class="bag_btn" data-id="1">
+      <i class="shopping_bag"></i>
+      add to bag
+    </button>
+    
     
   </div>
+  <h3>Taco</h3>
+  <h4>$360</h4>
+</article>
 </section>
+    
+
+<div class="cart_overlay">
+  <div class="cart">
+    <span class="close_cart">
+      <i class="close_cart">
+        <h2>Your Cart</h2>
+      </i>
+    </span>
+    <div class="cart_container">
+      <div class="cartitem">
+        <img src="/imgs/birriatacos.png" alt="">
+        <div>
+          <h4>Taco</h4>
+          <h5>$6.00</h5>
+          <span class="remove_cartitem">remove</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-chevron-up"></i>
+          <p class="item-amount">1</p>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
 
 
   <script src="scripts/main.js"></script>
+  
 
   <!-- This where I will put scripts 2 -->
 </body>
