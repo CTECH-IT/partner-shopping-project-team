@@ -61,7 +61,7 @@
     width: 275px;
     height: 275px;
     position: relative;
-    left: 825px;
+    left: 54.5%;
     z-index: 0;
     bottom: 320px;
 }
@@ -112,10 +112,39 @@
     border-radius: 25px;
     width: 40px;
     position: relative;
-    left: 740px;
-    bottom: 10px;
+    left: 48.75%;
+    display: flex;
+    padding: 5px;
+
 }
 @font-face {
     font-family: RadioCanada;
     src: url(/stylesheets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+}
+
+.center {
+    width: 100%;
+    align-items: center !important;
+    height: 20px;
+    flex-wrap: wrap;
+    position: center;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.positon {
+    width: fit-content;
+}
+
+@media all and (max-width: 960px) {
+    .feature_divider {
+        position: relative;
+        left: 46.5%;
+    }
+
+    #btn {
+        position: relative;
+    }
+
+    
 }
