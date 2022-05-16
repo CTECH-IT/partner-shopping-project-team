@@ -18,8 +18,9 @@
     max-width: 360px;
     position: relative;
     top: 125px;
-    left: 790px;
+    left: 52%;
     z-index: 1;
+
 
 }
 
@@ -27,7 +28,7 @@
     width: 400px;
     height: 100px;
     position: relative;
-    left: 400px;
+    left: 26.5%;
     bottom: 100px;
 }
 
@@ -39,7 +40,7 @@
     border-radius: 25px;
     background: linear-gradient(90deg, rgba(232,226,35,1) 0%, rgba(255,215,11,1) 35%, rgba(255,175,0,1) 100%);
     position: relative;
-    left: 400px;
+    left: 26.5%;
     bottom: 85px;
 }
 
@@ -144,7 +145,27 @@
 
     #btn {
         position: relative;
+        left: 10%;
+        height: 40px;
+        bottom: 45px;
+    }
+    #homepage_taco {
+        left: 46%;
+    }
+    #circle {
+        max-width: 200px;
+        max-height: 200px;
+        bottom: 240px;
+    }
+    #homepage_taco {
+        max-width: 260px;
+        max-height: 260px;
+        left: 49%;
+    }
+    .homepage_txt {
+        left: 8.5%;
+        bottom: 60px;
     }
 
-    
+
 }

@@ -18,75 +18,62 @@
 
 <body class="home_page">
 
+
   <header>
     <nav class="navbar">
       <div class="navbar_container">
-        <div class="navbar_logo"></div>
-          <ul>
-            <div class="navbar_item"><li><span class="logo" id="item">Taco Tuesday</span></li></div>
-            <div class="navbar_item"><a href="Cart.html"><li><span id="item"><img src="/imgs/Cart.png" alt="Cart" class="cart_img"></span></li></a></div>
-            <div class="navbar_item"><a href="#"><li><span id="item">Contact</span></li></a></div>
-            <div class="navbar_item"><a href="#"><li><span id="item">About Us</span></li></a></div>
-            <div class="navbar_item"><a href="store.html"><li><span id="item">Store</span></li></a></div>
-            <div class="navbar_item"><a href="index.html"><li><span id="item">Home</span></li></a></div>
-          </ul>
-  
+        <a href="#home" id="navbar_logo">Taco Tuesday</a>
+        <div class="navbar_toggle" id="mobile_setup">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar_menu">
+          <li class="navbar_item">
+            <a href="index.html" class="navbar_links" id="home_page">Home</a>
+          </li>
+          <li class="navbar_item">
+            <a href="store.html" class="navbar_links" id="about_page">Shop</a>
+          </li>
+          <li class="navbar_item">
+            <button class="navbar_links" id="music">Music</button>
+          </li>
+          <li class="navbar_btn" id="navbar_btn">
+            <a href="Cart.html" class="button" id="memes">Cart</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
 
 
-<section class="products">
-  <div class="section_title">
-    <h2>Products</h2>
-  </div>
-  <div class="product_center">
-<article class="product">
-  <div class="img_container">
-    <img src="/imgs/birriatacos.png" alt="product" class="product_img">
-    <button class="bag_btn" data-id="1">
-      <i class="shopping_bag"></i>
-      add to bag
-    </button>
-    
-    
-  </div>
-  <h3>Taco</h3>
-  <h4>$360</h4>
-</article>
-</section>
-    
 
-<div class="cart_overlay">
-  <div class="cart">
-    <span class="close_cart">
-      <i class="close_cart">
-        <h2>Your Cart</h2>
-      </i>
-    </span>
-    <div class="cart_container">
-      <div class="cartitem">
-        <img src="/imgs/birriatacos.png" alt="">
-        <div>
-          <h4>Taco</h4>
-          <h5>$6.00</h5>
-          <span class="remove_cartitem">remove</span>
+<section class="shop_section">
+  <h2>Products</h>
+  <p>Taco Tuesday is Everyday!</p>
+  <div class="catalog_list">
+    <div class="item_container">
+      <div class="item">
+        <img src="/images/taco_image.png" alt="">
+        <div class="item_des">
+          <span>Taco</span>
         </div>
-        <div>
-          <i class="fa-solid fa-chevron-up"></i>
-          <p class="item-amount">1</p>
-          <i class="fa-solid fa-chevron-down"></i>
-        </div>
+        <h4>$300</h4>
+        <a href="">
+          <i class="fa-solid fa-cart-circle-plus"></i>
+        </a>
       </div>
+
     </div>
   </div>
-</div>
+</section>
 
 
 
 
 
   <script src="scripts/main.js"></script>
+  <script src="scripts/nav.js"></script>
   
 
   <!-- This where I will put scripts 2 -->
