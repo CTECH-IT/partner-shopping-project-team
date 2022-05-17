@@ -1,27 +1,27 @@
 .product {
   padding: auto 0;
-
+  width: 20vw;
 }
 
 .section_title h2 {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
   text-transform: capitalize;
   letter-spacing: var(--Spacing);
+  margin-top: 40px;
 }
 
 .product_center {
   width: 90vw;
   margin: 0 auto;
   max-width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 4fr));
-  grid-column-gap: 24px;
-  grid-row-gap: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   box-sizing: border-box !important;
-  align-items: center;
-  
+  align-items: center !important;
+  align-content: center;
 }
 
 .img_container {
@@ -32,6 +32,13 @@
 
 .product {
   width: 260px;
+  display: inline-block;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  position: center;
+  align-self: center;
+
 }
 
 .bag_btn {
