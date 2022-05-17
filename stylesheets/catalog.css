@@ -1,26 +1,87 @@
-.page_title {
+.product {
+  padding: auto 0;
+
+}
+
+.section_title h2 {
   text-align: center;
-  font-family: RadioCanada;
-  padding: 10px;
-  margin: 10px;
+  font-size: 40px;
+  margin-bottom: 80px;
+  text-transform: capitalize;
+  letter-spacing: var(--Spacing);
 }
 
-.item {
-  max-width: 400px;
-  max-height: 400px;
-  border: white;
-  background-color: #EE7600;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 25px;
-  border: 2px solid white;
+.product_center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 4fr));
+  grid-column-gap: 24px;
+  grid-row-gap: 32px;
+  box-sizing: border-box !important;
+  align-items: center;
+  
 }
 
-.item_container {
-  width: 75%;
-  height: 600px;
+.img_container {
+  position: relative;
+  overflow: hidden;
+
 }
 
+.product {
+  width: 260px;
+}
+
+.bag_btn {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  background: var(--Color);
+  border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  letter-spacing: var(--Spacing);
+  font-weight: bold;
+  transition: var(--Transition);
+  transform: translateX(101%);
+  cursor: pointer;
+}
+
+.bag_btn:hover {
+  color: var(--White);
+}
+
+.shopping_bag {
+  margin-right: 8px;
+}
+
+.img_container:hover .bag_btn {
+  transform: translateX(0);
+}
+
+.product_img {
+  display: block;
+  width: 100%;
+  min-height: 192px;
+  transition: var(--Transition);
+}
+.img_container:hover .product_img {
+  opacity: 0.5;
+}
+
+.product h3 {
+  text-transform: capitalize;
+  font-size: 17.6px;
+  margin-top: 16px;
+  letter-spacing: var(--Spacing);
+  text-align: center;
+}
+
+.product h4 {
+  margin-top: 0.7rem;
+  letter-spacing: var(--Spacing);
+  color: var(--Color);
+  text-align: center;
+}
