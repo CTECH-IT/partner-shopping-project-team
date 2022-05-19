@@ -147,7 +147,7 @@
         position: relative;
         left: 10%;
         height: 40px;
-        bottom: 45px;
+        bottom: -175px;
     }
     #homepage_taco {
         left: 46%;
@@ -155,16 +155,17 @@
     #circle {
         max-width: 200px;
         max-height: 200px;
-        bottom: 240px;
+        bottom: 10px;
     }
     #homepage_taco {
         max-width: 260px;
         max-height: 260px;
-        left: 49%;
+        left: 50%;
+        top: 350px;
     }
     .homepage_txt {
         left: 8.5%;
-        bottom: 60px;
+        bottom: -75px;
     }
 
 

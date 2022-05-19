@@ -2,7 +2,7 @@ const music = document.querySelector('#music');
 
 
 let audio = new Audio();
-audio.src = '/sound/NGGUP.mp3';
+audio.src = '/audio/NGGUP.mp3';
 
 music.addEventListener('click', function(){
     audio.play();
