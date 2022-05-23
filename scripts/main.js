@@ -1,4 +1,8 @@
-const image = document.querySelector('.product_img')
-const header = document.querySelector('.product_namee')
+let sauce1 = document.getElementById('order_sauce(1)');
+let myTruck = new App.Truck(001, new App.Datastore());
+
+sauce1.addEventListener('click' , function(order1) {
+    myTruck.createOrder({Name: Taco,})
+});
 
 
