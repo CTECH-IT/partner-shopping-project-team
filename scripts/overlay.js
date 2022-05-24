@@ -1,10 +1,8 @@
-const overlayButton = document.querySelector('button_overlay')
-const cart = document.querySelector('.cart');
-const cartOverlay = document.querySelector('.cart_overlay');
+const cart = document.querySelector('cart')
+const cartDisplay = document.querySelector('cart_overlay')
+const buttonTrigger = document.getElementById('button')
 
-const menuMobile = () => {
-    cart.classList.toggle('is-active');
-    cartOverlay.classList.toggle('active');
-}
 
-overlayButton.addEventListener('click', menuMobile);
+document.querySelector('#button').addEventListener('click', () => {
+ document.querySelector('.cart').classList.add('cartTransform');
+}); 

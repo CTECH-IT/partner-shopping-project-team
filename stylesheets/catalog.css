@@ -92,7 +92,8 @@
   color: var(--Color);
   text-align: center;
 }
-.button_overlay {
+
+#button {
   width: 75px;
   height: 200px;
   background-color: #f09d51;
@@ -100,17 +101,18 @@
   float: right;
   position: sticky;
   bottom: 375px;
+  cursor: pointer;
 }
 
-.cart.is-active {
-  transform: translateX(100%);
-  visibility: visible;
-  display: visible;
+.cartTransform {
+  transform: translateX(100%) !important;
+  transition: all 0.5s ease !important;
+  visibility: visible !important;
 }
-.cart_overlay.is-active {
+
+.transform-active {
   transition: all 0.5s ease;
   visibility: visible;
-  display: visible;
 }
 
 .cart_overlay {
@@ -120,10 +122,9 @@
   width: 100%;
   height: 100%;
   transition: var(--Transition);
-  background: rgb(240, 157, 81, 0.5);
+  background: rgb(255, 181, 33);
   z-index: 2;
   visibility: hidden;
-  display: hidden;
 }
 .cart {
   position: fixed;
@@ -138,7 +139,6 @@
   transition: var(--Transition);
   transform: translateX(100%);
   visibility: hidden;
-  display: hidden;
 }
 .showCart {
   transform: translateX(0);
