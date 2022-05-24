@@ -12,9 +12,19 @@
         this.db.add(order.emailAddress, order);
     }
 
-    Truck.prototype.devilerOrder = function (customerId) {
+    Truck.prototype.deliverOrder = function (customerId) {
         console.log ('Delivering order for' + customerId) 
         this.db.remove(customerId);
+    }
+
+    Truck.prototype.printOrders = function () {
+        let customerId = object.keys(this.db.getAll());
+
+        customerIdArray.forEach(function (id) {
+            console.log(this.db.get(id));
+        });
+
+        console.log('Truck #' + this.truckId + ' has pending orders')
     }
     
     App.Truck = Truck;
