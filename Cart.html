@@ -13,7 +13,6 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css ">
-    <link rel="stylesheet" href="stylesheets/catalog.css">
     <link rel="stylesheet" href="stylesheets/nav.css">
     <link rel="stylesheet" href="stylesheets/cart.css">
   </head>
@@ -48,7 +47,14 @@
     </nav>
   </header>
 
-
+<section class="cart">
+  <div class="cart_container">
+    <h2>Cart</h2>
+    <h3>Price</h3>
+    <h3>Quantity</h3>
+    <h3>Total</h3>
+  </div>
+</section>
 
 <section class="form">
 <div class="card card-default">
@@ -77,6 +83,9 @@
          <label for="order_information">Address</label>
          <input class="form-control" name="identification" id="order_information">
          </div>
+         <div class="sumbit">
+           <input type="Submit" class="button">
+         </div>
     </form>
   </div>
 </div>
@@ -90,7 +99,12 @@
 
 
 
-  <script src="scripts/main.js"></script>
+
+<script src="scripts/main.js"></script>
+<script src="scripts/nav.js"></script>
+<script src="scripts/music.js"></script>
+<script src="scripts/datastore.js"></script>
+<script src="scripts/truck.js"></script>
   
   <script src="scripts/app.js"></script>
   <script src="https://kit.fontawesome.com/38a5d06c7f.js" crossorigin="anonymous"></script>
