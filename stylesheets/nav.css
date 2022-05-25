@@ -37,6 +37,13 @@
     padding: 0 50px;
   }
 
+  .hideNav {
+    transition: all 0.3s ease;
+    visibility: hidden;
+  }
+
+
+
   @font-face {
     font-family: Millenia;
     src: url(fonts/Millenia.ttf);

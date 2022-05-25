@@ -8,3 +8,15 @@
     float: right;
     margin-top: 125px;
 }
+
+.cart {
+    width: 500px;
+    height: 500px;
+    align-items: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 125px;
+    
+}
