@@ -4,10 +4,12 @@ const buttonTrigger = document.getElementById('button');
 var IscartShowing = false
 const navBar = document.querySelector('.navbar_container')
 const navBar1 = document.querySelector('.navbar')
+const buttonCart = document.querySelector('.button1')
 
 function Transition() {
 
     if (IscartShowing == false) {
+        buttonCart.classList.add('hideButton');
         navBar1.classList.add('hideNav');
         navBar.classList.add('hideNav');
         buttonTrigger.classList.remove('buttonRemove');
@@ -17,6 +19,7 @@ function Transition() {
         IscartShowing = true
     }
     else if (IscartShowing == true) {
+        buttonCart.classList.remove('hideButton');
         navBar1.classList.remove('hideNav');
         navBar.classList.remove('hideNav');
         cart.classList.remove('showCart');
@@ -32,6 +35,6 @@ function Transition() {
 
 buttonTrigger.addEventListener('click', Transition)
 
-
+w
 
 

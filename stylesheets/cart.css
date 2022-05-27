@@ -11,12 +11,64 @@
 
 .cart {
     width: 500px;
-    height: 500px;
+    height: 750px;
     align-items: right;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     float: left;
     margin-top: 125px;
+    list-style: none;
     
+}
+
+.cart_list {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    margin: 20px 10px;
+    padding: 0 10px;
+    list-style: none;
+    background-color: bisque;
+    border: solid 2px black;
+    margin-left: 75px;
+}
+
+.cart_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    width: 125px;
+}
+
+#cart_title {
+    margin-right: 350px;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: none;
+    padding: 10px 20px;
+    width: 25%;
+    height: 50%;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background: #0fe8e8;
+    color: #fff;
+    transition: all 0.3s ease;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    max-height: 25%;
 }
