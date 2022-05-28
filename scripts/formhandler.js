@@ -2,8 +2,10 @@
     'use strict';
     let App = window.app || {};
 
-    function Formhandler() {
-        
+    function Formhandler(selector) {
+        if(!selector) {
+            throw new Error('no selector provided!');
+        }
     }
 
     App.Formhandler = Formhandler;
