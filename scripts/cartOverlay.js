@@ -1,12 +1,8 @@
-const deleteButton = document.querySelector('.fa-trash');
+const deleteButton = document.getElementById('delete_item');
 const addButton = document.querySelector()
 
 function deleteItem (){
     deleteButton.parentElement.remove();
-}
-
-function addItem(){
-
 }
 
 deleteButton.addEventListener('click', deleteItem);
